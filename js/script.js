@@ -12,9 +12,9 @@ function fun()
     else
     {
         var disp=document.getElementById("last");
-    disp.style.display="block";
-    var table = document.getElementById("detailTable");
-    var count=0;
+        disp.style.display="block";
+        var table = document.getElementById("detailTable");
+        var count=0;
     for (let row of table.rows) 
     {
         for(let cell of row.cells) 
@@ -63,7 +63,7 @@ function java_e(x)
 }
 function java(x)
 {
-    x.src="./images/java.png";
+    x.src="./images/java_1.png";
 }
 function c_e(x)
 {
@@ -92,7 +92,7 @@ function css(x)
 }
 function js(x)
 {
-    x.src="./images/JavaScript-Logo.png";
+    x.src="./images/js_1.jpeg";
 }
 function oops(x)
 {
