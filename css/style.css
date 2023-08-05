@@ -108,7 +108,7 @@ a:hover
 .intro
 {
     padding: 10px;
-    background-image: url('../images/network1.jpeg');
+    background-image: url('../images/intro.png');
     word-spacing: 4px;
     font-family: Sans-serif;
     color:white;
@@ -119,23 +119,45 @@ a:hover
 .about {
     text-align: center;
 }
-.education 
-{ 
-    background-image: url('../images/education.webp');
+.education { 
+    background-image: url('../images/edu_new.jpeg');
     font-family: cursive;
     text-align: center;
     font-weight: bold;
     color:white;
-    background-size: 100% 100%;
+    background-size: 300% 300%;
+    
+}
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
 }
 
-.technologies
-{ 
-    background-image: url('../images/web-design.jpeg');
+.tab-links {
+    margin: 10px 50px 75px 300px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: hsl(178, 100%, 51%);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-links::after {
+    width: 70%;
+}
+.technologies { 
+    background-image: url('../images/bghex.jpeg');
     background-size: 100% 100%;
 }
-.cv
-{
+.cv {
     border:none;
     background-color: white;
     width:200px;
@@ -232,12 +254,12 @@ h1 {
 .row2
 {
     margin: 8px;
-    margin-left: 340px;
+    margin-left: 250px;
 }
 .column2
 {
     float: left;
-    width: 29%;
+    width: 25%;
 }
 .row3
 {
@@ -302,7 +324,7 @@ h1 {
 }
 .projects
 {
-    background-image: url('../images/background.gif');
+    background-image: url('../images/bg_image.jpeg');
     color:white;
     height:125%;
 }
@@ -349,6 +371,7 @@ h1 {
 {
     text-align: right;
     font-size: 40px;
+    color: aqua;
     text-decoration: underline;
     padding: 20px;
     font-family: cursive;

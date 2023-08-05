@@ -48,71 +48,85 @@ function fun()
     }
 }
 }
-function bigImg(x) {
-    x.style.height = "155px";
-    x.style.width = "155px";
-  }
-  
-  function normalImg(x) {
-    x.style.height = "150px";
-    x.style.width = "150px";
-}
-function java_e(x)
+function sixty(x)
 {
-    x.src="./images/java_e.jpg";
+    x.src="./images/sixty.png";
 }
-function java(x)
+function sixtyFive(x)
 {
-    x.src="./images/java_1.png";
+    x.src="./images/sixtyfive.png";
 }
-function c_e(x)
+function seventy(x)
 {
-    x.src="./images/c_e.jpg";
+    x.src="./images/seventy.png";
 }
-function c(x)
+function seventyFive(x)
 {
-    x.src="./images/C.png";
+    x.src="./images/seventyfive.png";
 }
-function html_e(x)
+function eighty(x)
 {
-    x.src="./images/html_e.jpg";
+    x.src="./images/eighty.png";
 }
-function html(x)
+function ninety(x)
 {
-    x.src="./images/html5.jpg";
+    x.src="./images/ninety.png";
 }
-
-function css_e(x)
+function eightyFive(x)
 {
-    x.src="./images/css_e.jpg";
+    x.src="./images/eightyfive.png";
 }
-function css(x)
+function displayJava(x)
 {
-    x.src="./images/css.webp";
+    x.src="./images/java.png";
 }
-function js(x)
+function displayJS(x)
 {
-    x.src="./images/js_1.jpeg";
+    x.src="./images/js.jpeg";
 }
-function oops(x)
+function displayPython(x)
+{
+    x.src="./images/python_new.png";
+}
+function displayHtml(x)
+{
+    x.src="./images/html.png";
+}
+function displayCSS(x)
+{
+    x.src="./images/css.png";
+}
+function displaySwift(x)
+{
+    x.src="./images/Swift.jpeg";
+}
+function displaySql(x)
+{
+    x.src="./images/sql.webp";
+}
+function displayOOPS(x)
 {
     x.src="./images/OOPs.jpeg";
 }
-function ds_e(x)
+function displayDS(x)
 {
-    x.src="./images/ds_e.jpg";
+    x.src="../images/algorithms.png";
 }
-function ds(x)
+function displayDbms(x)
 {
-    x.src="../images/data-structures.jpg";
+    x.src="./images/dbms.webp";
 }
-function dbms_e(x)
+function displayReact(x)
 {
-    x.src="./images/dbms_e.png";
+    x.src="./images/react-logo.png";
 }
-function dbms(x)
+function displayRubyOnRails(x)
 {
-    x.src="./images/dbms.jpg";
+    x.src="./images/rubyonrails.png";
+}
+function displayAngular(x)
+{
+    x.src="./images/Angular.png";
 }
 function mysql(x)
 {
