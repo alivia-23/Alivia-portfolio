@@ -120,14 +120,75 @@ a:hover
     text-align: center;
 }
 .education { 
-    background-image: url('../images/edu_new.jpeg');
+    background-image: url('../images/edu_new.png');
     font-family: cursive;
     text-align: center;
     font-weight: bold;
     color:white;
-    background-size: 300% 300%;
-    
+    background-size: 100% 100%;
 }
+
+.education-items {
+    display:flex;
+    font-size: xx-large;
+}
+
+.education-item {
+    width: 50%;    
+}
+
+.degree {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.degree.ms::after {
+    content: '';
+    width: 170;
+    height: 5px;
+    background: hsl(178, 100%, 51%);
+    position: absolute;
+    left: 230;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.degree.btech::after {
+    content: '';
+    width: 200;
+    height: 5px;
+    background: hsl(178, 100%, 51%);
+    position: absolute;
+    left: 220;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.ms {
+    padding-right: 50px;
+}
+
+.inf-sys {
+    padding-right: 50px;
+}
+
+
+.education-item-title::after {
+    width: 70%;
+}
+
+.department {
+    font-size: 25px;
+}
+
+.subjects {
+    font-size: 18px;
+    list-style-type: none;
+    padding-right: 25px;
+}
+
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
@@ -166,6 +227,12 @@ a:hover
     border-radius: 15px;
     text-align: center;
     
+}
+
+.section-border {
+    height: 30px;
+    width: 100%;
+    background-color: white;
 }
 
 
