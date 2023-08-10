@@ -1,9 +1,9 @@
 var modalInfo = {
     1: {
-      title: "",
-      info: "",
-      link: "",
-      github: ""
+      title: "Todo List",
+      info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
+      link: "https://github.com/alivia-23/react-todo-app",
+      github: "https://github.com/alivia-23/react-todo-app"
     },
     2: {
       title: "",
@@ -14,8 +14,8 @@ var modalInfo = {
     3: {
       title: "Personal Portfolio",
       info: "Created my Persnal Portfolio😀 using HTML,CSS and JS.",
-      link: "",
-      github: ""
+      link: "https://alivia-23.github.io/Alivia-portfolio/",
+      github: "https://github.com/alivia-23/Alivia-portfolio"
     },
     4: {
       title: "",
