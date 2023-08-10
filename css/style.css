@@ -8,7 +8,7 @@ body
     text-align:center;
     font-family: 'PT Sans',sans-serif;
     background-image: url('../images/background1.gif');
-    height: 90%;
+    height: 100%;
   
 }
 .img
@@ -185,8 +185,9 @@ a:hover
 
 .subjects {
     font-size: 18px;
+    font-family: Sans-serif;
+    font-weight: normal;
     list-style-type: none;
-    padding-right: 25px;
 }
 
 .tab-titles {
@@ -393,7 +394,7 @@ h1 {
 {
     background-image: url('../images/bg_image.jpeg');
     color:white;
-    height:125%;
+    height:100%;
 }
 .container1
 {
