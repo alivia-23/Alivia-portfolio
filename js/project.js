@@ -8,7 +8,7 @@ var modalInfo = {
     2: {
       title: "CatWeather ChatBot",
       info: "For all cat lovers this bot is used to get weather data for cats in different cities.",
-      link: "http://2023-08-16-ag-website.s3-website-us-east-1.amazonaws.com/",
+      link: "https://d2xh80wvwfgclj.cloudfront.net",
       github: "https://github.com/alivia-23/CatWeatherChatBot"
     },
     3: {
