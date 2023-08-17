@@ -23,10 +23,10 @@ body
     color:white;
     font-family: cursive;
     content: "Full Stack Developer"; 
-    animation: animate infinite 7s; 
+    animation: animate infinite 7s;
     padding-left: 10px; 
     text-align: center;
-    font-size:35px;
+    font-size:40px;
 
 } 
 @keyframes animate { 
