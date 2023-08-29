@@ -22,13 +22,7 @@ var modalInfo = {
       info: "It is a game between two player",
       link: "https://alivia-23.github.io/Tic-Tac-Toe-Game/",
       github: "https://github.com/alivia-23/Tic-Tac-Toe-Game"
-    },
-    5: {
-      title: "",
-      info: "",
-      github: ""
-    },
-   
+    }
   };
   
   // Get the modal
