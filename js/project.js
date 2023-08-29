@@ -18,10 +18,10 @@ var modalInfo = {
       github: "https://github.com/alivia-23/Alivia-portfolio"
     },
     4: {
-      title: "",
-      info: "",
-      link: "",
-      github: ""
+      title: "Tic Tac Toe",
+      info: "It is a game between two player",
+      link: "https://alivia-23.github.io/Tic-Tac-Toe-Game/",
+      github: "https://github.com/alivia-23/Tic-Tac-Toe-Game"
     },
     5: {
       title: "",
