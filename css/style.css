@@ -288,7 +288,12 @@ a:hover
     height:50px;
     border-radius: 15px;
     text-align: center;
-    
+    transition-duration: 0.4s;
+}
+
+.resume:hover {
+    background-color:#04AA6D;
+    color: yellow;
 }
 
 .section-border {
