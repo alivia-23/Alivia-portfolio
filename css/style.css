@@ -137,6 +137,66 @@ a:hover
     width: 50%;    
 }
 
+.experience {
+    background-image: url('../images/edu_new.png');
+    font-family: cursive;
+    text-align: left;
+    font-weight: bold;
+    color:white;
+}
+
+.experience-items {
+    display:flex;
+    font-size: x-large;
+}
+
+.experience-item {
+    width: 30%;    
+}
+
+.company {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.name1, .name2, .name3 {
+    color: aqua;
+    padding-left: 30px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.role {
+    color: #fcc500;
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: normal;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.location {
+    color: yellowgreen;
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: normal;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+.duties {
+    font-size: 18px;
+    font-family: Sans-serif;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+.duties li::before{ 
+    content: "\27A7"; 
+} 
+
 .degree {
     font-size: 30px;
     font-weight: 500;
@@ -215,6 +275,7 @@ a:hover
 .tab-links.active-links::after {
     width: 70%;
 }
+
 .technologies { 
     background-image: url('../images/bghex.jpeg');
     background-size: 100% 100%;
