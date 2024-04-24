@@ -110,3 +110,13 @@ function mssql(x) {
 function github(x) {
     x.src="./images/GitHub-Mark.png";
 }
+
+window.onload = function() {
+    var aboutMe = document.getElementById('about-me');
+    aboutMe.innerHTML = "I am a Full Stack Developer and a Java Programmer. I graduated from Northeastern University by completing my Masters in Information Systems, specialized in Computer Software Engineering.\
+    I can't stop learning new things, the more, the better. Being a Software Engineer, Coding is like a hobby to me.\
+    I believe I am an enthusiastic person who genuinely wants to develop the necessary skills and qualities to have a successful\
+    career. I keep myself motivated and active and I want to learn more from experienced people.\<br><br>\
+    I love solving problems. I have worked on multiple technologies like Java, Javascript, Python, SQL, HTML, React, Ruby on Rails, Angular,  CSS, MySQL, PosgreSQL.\
+    I am passionate about implementing and launching new projects."
+};
