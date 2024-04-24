@@ -163,7 +163,7 @@ a:hover
 
 .name1, .name2, .name3 {
     color: aqua;
-    padding-left: 30px;
+    padding-left: 50px;
     margin-top: 0em;
     margin-bottom: 0em;
 }
@@ -171,7 +171,7 @@ a:hover
 .role {
     color: coral;
     font-size: 25px;
-    padding-left: 30px;
+    padding-left: 50px;
     font-weight: normal;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -179,7 +179,7 @@ a:hover
 .location {
     color: yellowgreen;
     font-size: 25px;
-    padding-left: 30px;
+    padding-left: 50px;
     font-weight: normal;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -191,6 +191,7 @@ a:hover
     font-family: Sans-serif;
     font-weight: normal;
     list-style-type: none;
+    padding-left: 50px;
 }
 
 .duties li::before{ 
