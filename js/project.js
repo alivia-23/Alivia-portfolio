@@ -8,7 +8,7 @@ var modalInfo = {
     2: {
       title: "Shortify",
       info: "It is the backend of a URL shortening service. It takes a long URL and converts it into a shorter one.",
-      link: "https://github.com/alivia-23/URLShortener",
+      link: "https://github.com/alivia-23/URLShortener/",
       github: "https://github.com/alivia-23/URLShortener"
     },
     3: {
@@ -32,7 +32,7 @@ var modalInfo = {
     6 : {
       title: "Todo List",
       info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
-      link: "https://github.com/alivia-23/react-todo-app",
+      link: "https://github.com/alivia-23/react-todo-app/",
       github: "https://github.com/alivia-23/react-todo-app"
     },
   };
