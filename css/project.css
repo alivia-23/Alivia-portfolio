@@ -42,8 +42,11 @@ h1{
   max-width: 410px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
+  border-radius: 2pc;
+  background-color: #708090;
+  opacity: 0.9;
 }
 
 .item:hover{
