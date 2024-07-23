@@ -6,16 +6,16 @@ var modalInfo = {
       github: "https://github.com/alivia-23/CatWeatherChatBot"
     },
     2: {
+      title: "Shortify",
+      info: "It is the backend of a URL shortening service. It takes a long URL and converts it into a shorter one.",
+      link: "https://github.com/alivia-23/URLShortener",
+      github: "https://github.com/alivia-23/URLShortener"
+    },
+    3: {
       title: "Simple Calculator",
       info: "A simple calculator which can perform basic arithmetic operations.",
       link: "https://alivia-23.github.io/CalculatorApp/",
       github: "https://github.com/alivia-23/CalculatorApp"
-    },
-    3: {
-      title: "Todo List",
-      info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
-      link: "https://github.com/alivia-23/react-todo-app",
-      github: "https://github.com/alivia-23/react-todo-app"
     },
     4: {
       title: "Personal Portfolio",
@@ -28,6 +28,12 @@ var modalInfo = {
       info: "It is a game between two player",
       link: "https://alivia-23.github.io/Tic-Tac-Toe-Game/",
       github: "https://github.com/alivia-23/Tic-Tac-Toe-Game"
+    },
+    6 : {
+      title: "Todo List",
+      info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
+      link: "https://github.com/alivia-23/react-todo-app",
+      github: "https://github.com/alivia-23/react-todo-app"
     },
   };
   
