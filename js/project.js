@@ -1,28 +1,34 @@
 var modalInfo = {
     1: {
-      title: "Todo List",
-      info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
-      link: "https://github.com/alivia-23/react-todo-app",
-      github: "https://github.com/alivia-23/react-todo-app"
-    },
-    2: {
       title: "CatWeather ChatBot",
       info: "For all cat lovers this bot is used to get weather data for cats in different cities.",
       link: "https://d2xh80wvwfgclj.cloudfront.net",
       github: "https://github.com/alivia-23/CatWeatherChatBot"
     },
+    2: {
+      title: "Simple Calculator",
+      info: "A simple calculator which can perform basic arithmetic operations.",
+      link: "https://alivia-23.github.io/CalculatorApp/",
+      github: "https://github.com/alivia-23/CalculatorApp"
+    },
     3: {
+      title: "Todo List",
+      info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
+      link: "https://github.com/alivia-23/react-todo-app",
+      github: "https://github.com/alivia-23/react-todo-app"
+    },
+    4: {
       title: "Personal Portfolio",
       info: "Created my Persnal Portfolio😀 using HTML,CSS and JS.",
       link: "https://alivia-23.github.io/Alivia-portfolio/",
       github: "https://github.com/alivia-23/Alivia-portfolio"
     },
-    4: {
+    5: {
       title: "Tic Tac Toe",
       info: "It is a game between two player",
       link: "https://alivia-23.github.io/Tic-Tac-Toe-Game/",
       github: "https://github.com/alivia-23/Tic-Tac-Toe-Game"
-    }
+    },
   };
   
   // Get the modal
