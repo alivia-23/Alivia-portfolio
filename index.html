@@ -15,18 +15,11 @@
         <style>
             .seeMore
                   {
-                    text-align: right;
+                    text-align: center;
                     font-size: 40px;
                     text-decoration: underline;
                     padding: 20px;
                     font-family: cursive;
-                  }
-                  .seeMore:hover
-                  {
-                    color: white;
-                    font-size: 42px;
-                    text-decoration: none;
-
                   }
         </style>
         
@@ -59,66 +52,22 @@
           </div>
           </div>
       </nav>
-
-      <div class="jumbotron firstCon" id="geeky" style="text-align: center;">
-        <img src="./images/alivia_img_new.jpg" class="rounded-circle" class="img" style="margin-top:10%" alt="Alivia Guin" width="304" height="236"> >
-        <br><br><br>
-        <span id="abc"> </span>
-        
-        <div class="container" class="connect">
-    
-          <!-- Social buttons -->
-          <ul class="list-unstyled list-inline text-center" >
-            <li class="list-inline-item">
-            <a href="mailto:guin.alivia@gmail.com" target="_blank" class="connect" class="btn-floating btn-fb mx-1" >
-               <i    class="fas fa-envelope-square"></i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="https://twitter.com/GuinAlivia" target="_blank" class="connect" class="btn-floating btn-tw mx-1" href="">
-                <i  class="fab fa-twitter" > </i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="" target="_blank" class="connect" class="btn-floating btn-gplus mx-1">
-                <i class="fab fa-facebook"> </i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/alivia-guin/" target="_blank" class="connect" class="btn-floating btn-li mx-1">
-                <i class="fab fa-linkedin"> </i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="https://github.com/alivia-23" target="_blank" class="connect" class="btn-floating btn-dribbble mx-1">
-                <i class="fab fa-github"> </i>
-            </a>
-            </li>
-        </ul>
-          <!-- Social buttons -->
-      
-          </div>
-  
-      </div>
         
       <div>
-        
-        <div class=" jumbotron one" id="coupon">
-          <h2 class="heading1">Hello World 👋</h2>
-          <div class="image">
-              <div>
-              <img src="./images/my_pic.JPG" class="profileimg">
+          <div class="jumbotron one" id="coupon">
+              <h2 class="heading1">Hello World 👋</h2>
+              <div class="image">
+                  <div>
+                  <img src="./images/my_pic.JPG" class="profileimg">
               </div>
-          <div class="intro">
-                <h2 class="about">About Me</h2>
-                <p id="about-me">
-                  <p style="text-align:center"><input type="button" class="resume" value="Download Resume" onclick="DownloadFile('Alivia_Guin_Resume_2024.pdf')"/></p>
-                </p> 
-        
-          </div>
-          </div>
-        </div>
-      </div>
+                <div class="intro">
+                    <h2 class="about">About Me</h2>
+                    <p id="about-me">
+                      <p style="text-align:center"><input type="button" class="resume" value="Download Resume" onclick="DownloadFile('Alivia_Guin_Resume_2024.pdf')"/></p>
+                    </p> 
+                </div>
+           </div>
+       </div>
       <div class="education" id="education">
         <p class="icon">--------👩‍🎓---------</p>
         <div>
@@ -295,18 +244,24 @@
           <h1 class="lang" style="margin-top:10%;">Database</h1>
           <p class="icon">--------👩‍💻--------</p>
           <div class="main">
+            <!-- Row -->
             <div class="row3" class="row">
-                <div class="column3" class="column">
+              <!-- Column 1 -->
+                <div class="column3">
                   <div class="content">
-                    <img src="./images/mysql.png" onmouseover="seventy(this)" onmouseout="mysql(this)" alt="Mountains" style="width:150px;height:150px;border-radius:50%;">  
+                    <img src="./images/mysql.png" onmouseover="seventy(this)" onmouseout="mysql(this)" alt="MySQL" style="width:150px;height:150px;border-radius:50%;"> &nbsp;&nbsp;&nbsp;
                   </div>
                 </div>
-                <div class="column3" class="column">
+              <!-- Column 1 ends -->
+              <!-- Column 2 -->
+                <div class="column3">
                   <div class="content">
-                  <img src="./images/mssql.jpeg" onmouseover="ninety(this)" onmouseout="mssql(this)" alt="Lights" style="width:150px;height:150px;border-radius:50%">
+                  <img src="./images/mssql.jpeg" onmouseover="ninety(this)" onmouseout="mssql(this)" alt="MSSQL" style="width:150px;height:150px;border-radius:50%"> &nbsp;&nbsp;&nbsp;
                   </div>
                 </div>
-              </div>
+              <!-- Column 2 ends -->
+             </div>
+             <!-- Row ends -->
           </div>
           <br><br><br><br><br><br><br><br><br><br>
           <h1 class="lang">Version Control</h1>
@@ -323,7 +278,8 @@
       </div> 
       <br><br><br><br><br><br><br><br><br>
       </div>
-        </div>
+    </div>
+        <div class="section-border"></div>
           <div class="div4">
             <h1 class="currentLearning">What I do </h1>
             <div class="card">
@@ -334,10 +290,10 @@
                 <br>
             </div>
           </div>
-
         </div>
+        <div class="section-border"></div>
         <div class="projects" id="projects">
-          <h1 class="currentLearning">Projects </h1><br><br><br>
+          <h1 class="currentLearning">Projects </h1>
           <div class="container1 ">
             <div class="card1">
               <img src="./images/dronedelivery.jpeg" alt="Drone Delivery Simulator" class="Pimg1" style="width:100%;height:200px">
@@ -361,12 +317,47 @@
           <a href="./html/projects.html"><h1 class="seeMore">See more projects</h1></a>
         </div>
       <br><br><br><br>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
-  <footer>
-    <div class="footer">
-      <p>© 2021 Alivia Guin. All Rights Reserved.</p>
-    </div>
-  </footer>
+  <div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <section class="">
+        <div class="container text-center text-md-start mt-2">
+          <!-- Grid row -->
+        <div class="row mt-1">
+         <!-- Grid column -->
+         <div class="col-md-1 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-1">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>Alivia Guin</p>
+            <p>Lynnwood, WA 98087, US</p>
+            <p>
+              <a href="mailto:guin.alivia@gmail.com">Gmail</a>
+            </p>
+            <p>Call at: + 71 643 196 84</p>
+          </div>
+        <!-- Grid column -->
+        <!-- Grind Colum -->
+         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <p>
+              <a href="mailto:withalivia@gmail.com">Gmail</a> |
+              <a href="https://www.linkedin.com/in/alivia-guin/">LinkedIn</a> |
+              <a href="https://www.facebook.com/alivia.guin/">facebook</a> |
+              <a href="https://twitter.com/GuinAlivia">Twitter</a>
+            </p>
+         </div>
+         <!-- Grid Column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+        <!-- Container -->
+      </section>
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Copyright:
+        <a class="text-body" href="https://alivia-23.github.io/Alivia-portfolio/index.html">AliviaGuin.com</a>
+      </div>
+    </footer> 
+  </div>
 
 </html>
