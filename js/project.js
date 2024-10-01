@@ -18,10 +18,10 @@ var modalInfo = {
       github: "https://github.com/alivia-23/CalculatorApp"
     },
     4: {
-      title: "Personal Portfolio",
-      info: "Created my Persnal Portfolio😀 using HTML,CSS and JS.",
-      link: "https://alivia-23.github.io/Alivia-portfolio/",
-      github: "https://github.com/alivia-23/Alivia-portfolio"
+      title: "Binary Search Tree Visualizer",
+      info: "Visual Implementation of Binary Search Tree(BST) where user can add, delete nodes and view results of Pre-Order, Post-Order, In-Order traversals and calculated height accordingly",
+      link: "https://github.com/alivia-23/BinarySearchTreeVisualizer",
+      github: "https://github.com/alivia-23/BinarySearchTreeVisualizer"
     },
     5: {
       title: "Tic Tac Toe",
@@ -34,6 +34,12 @@ var modalInfo = {
       info: "Users can list to-do items with functionalities like sort, add, delete and strike out the items which are done",
       link: "https://github.com/alivia-23/react-todo-app/",
       github: "https://github.com/alivia-23/react-todo-app"
+    },
+    7 : {
+      title: "Personal Portfolio",
+      info: "Created my Persnal Portfolio😀 using HTML,CSS and JS.",
+      link: "https://alivia-23.github.io/Alivia-portfolio/",
+      github: "https://github.com/alivia-23/Alivia-portfolio"
     },
   };
   
